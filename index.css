@@ -16,7 +16,7 @@ body {
 .mobile,
 .front-card,
 .mobile-back-card {
-  width: 400px;
+  width: 375px;
   height: 220px;
 }
 
@@ -49,7 +49,7 @@ body {
 
 .mobile-cvc {
   color: white;
-  width: 10rem;
+  width: 7rem;
   position: absolute;
   padding-top: 7rem;
   display: flex;
@@ -99,7 +99,7 @@ label {
 }
 
 input {
-  width: 23rem;
+  width: 20rem;
   border: 1.5px solid hsl(270, 3%, 87%);
   border-radius: 0.5rem;
   padding-block: 1rem;
@@ -118,7 +118,7 @@ input::placeholder {
 }
 
 .card {
-  width: 380px;
+  width: 375px;
   margin: 0 auto;
   margin-top: 14rem;
   margin-bottom: 3rem;
@@ -140,7 +140,7 @@ input::placeholder {
 }
 
 .card-dates-input3 {
-  width: 13rem;
+  width: 9rem;
 }
 
 .card-submit-btn {
