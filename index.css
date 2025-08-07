@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.container {
+  width: initial;
+  height: 280px;
+  background: url(./assets/bg-main-desktop.png);
+}
+
+.front,
+.mobile,
+.front-card,
+.mobile-back-card {
+  width: 400px;
+  height: 220px;
+}
+
+.mobile {
+  padding-top: 30px;
+  padding-left: 48px;
+  position: absolute;
+}
+
+.front {
+  position: relative;
+  padding-left: 15px;
+  padding-top: 180px;
+}
+
+.back {
+  visibility: hidden;
+}
+
+.front-card {
+  background: url(./assets/images/bg-card-front.png);
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.card-logo {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.mobile-cvc {
+  color: white;
+  width: 10rem;
+  position: absolute;
+  padding-top: 7rem;
+  display: flex;
+  align-items: center;
+  padding-left: 20rem;
+}
+
+.input-display {
+  width: 280px;
+  height: 64px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+
+.input-name {
+  font-size: 14px;
+  font-weight: initial;
+  letter-spacing: 2px;
+  position: relative;
+  top: 18px;
+  color: white;
+}
+
+.input-number {
+  font-size: 21px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.date-inputs {
+  color: white;
+  font-weight: initial;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile-back-card {
+  background: url(./assets/images/bg-card-back.png);
+  border-radius: 5px;
+  z-index: 1;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+  color: hsl(278, 68%, 11%);
+}
+
+input {
+  width: 23rem;
+  border: 1.5px solid hsl(270, 3%, 87%);
+  border-radius: 0.5rem;
+  padding-block: 1rem;
+}
+
+input:focus {
+  border: 1.5px solid hsl(278, 68%, 11%);
+  outline: none;
+}
+
+input::placeholder {
+  padding-inline: 0.9rem;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+  color: hsl(212, 12%, 71%);
+}
+
+.card {
+  width: 380px;
+  margin: 0 auto;
+  margin-top: 14rem;
+  margin-bottom: 3rem;
+}
+
+.card-number,
+.card-dates {
+  margin-top: 1.3rem;
+}
+
+.card-inputs {
+  display: flex;
+  flex-direction: row;
+  gap: 0.6rem;
+}
+
+.card-dates-input {
+  width: 4rem;
+}
+
+.card-dates-input3 {
+  width: 13rem;
+}
+
+.card-submit-btn {
+  margin-top: 2rem;
+  width: 23rem;
+  border: 1px solid hsl(278, 68%, 11%);
+  border-radius: 0.5rem;
+  padding-block: 0.8rem;
+  font-size: 18px;
+  color: white;
+  background-color: hsl(278, 68%, 11%);
+}
+
+.completion {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.completion p {
+  color: hsl(212, 12%, 71%);
+}
+
+.completion img {
+  margin-block: 2rem;
+}
+
+.completion span {
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    margin-block: 12rem;
+    margin-left: 20rem;
+  }
+  .content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .container {
+    width: 450px;
+    height: 900px;
+    background: url(./assets/bg-main-desktop.png);
+  }
+
+  .mobile {
+    visibility: hidden;
+  }
+
+  .front,
+  .back,
+  .front-card,
+  .back-card {
+    width: 447px;
+    height: 245px;
+  }
+
+  .front {
+    position: initial;
+    margin-left: 100px;
+    padding-top: 200px;
+  }
+
+  .back {
+    visibility: visible;
+    margin-left: 200px;
+    padding-top: 40px;
+  }
+
+  .front-card {
+    background: url(./assets/images/bg-card-front.png);
+  }
+
+  .back-card {
+    background: url(./assets/images/bg-card-back.png);
+  }
+
+  .desktop-cvc {
+    color: white;
+    width: 10rem;
+    position: absolute;
+    padding-top: 7rem;
+    display: flex;
+    align-items: center;
+    padding-left: 20rem;
+  }
+
+  .input-display {
+    width: 350px;
+    height: 64px;
+  }
+
+  .input-name {
+    font-size: 14px;
+    font-weight: initial;
+    letter-spacing: 2px;
+    color: white;
+  }
+
+  .input-number {
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: white;
+    position: relative;
+    padding-bottom: 18px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .date-inputs {
+    color: white;
+    font-weight: initial;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .card-dates-input3 {
+    width: 10rem;
+  }
+}
