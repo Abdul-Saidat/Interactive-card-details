@@ -16,19 +16,19 @@ body {
 .mobile,
 .front-card,
 .mobile-back-card {
-  width: 375px;
+  width: 340px;
   height: 220px;
 }
 
 .mobile {
   padding-top: 30px;
-  padding-left: 20px;
+  padding-left: 5px;
   position: absolute;
 }
 
 .front {
   position: relative;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-top: 180px;
 }
 
@@ -119,9 +119,9 @@ input::placeholder {
 
 .card {
   width: 375px;
-  margin: 0 auto;
+  margin-left: 10px;
   margin-top: 14rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .card-number,
