@@ -22,13 +22,13 @@ body {
 
 .mobile {
   padding-top: 30px;
-  padding-left: 48px;
+  padding-left: 20px;
   position: absolute;
 }
 
 .front {
   position: relative;
-  padding-left: 15px;
+  padding-left: 10px;
   padding-top: 180px;
 }
 
@@ -145,7 +145,7 @@ input::placeholder {
 
 .card-submit-btn {
   margin-top: 2rem;
-  width: 23rem;
+  width: 20rem;
   border: 1px solid hsl(278, 68%, 11%);
   border-radius: 0.5rem;
   padding-block: 0.8rem;
