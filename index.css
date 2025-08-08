@@ -22,7 +22,7 @@ body {
 
 .mobile {
   padding-top: 30px;
-  padding-left: 10px;
+  padding-left: 15px;
   position: absolute;
 }
 
@@ -54,7 +54,7 @@ body {
   padding-top: 7rem;
   display: flex;
   align-items: center;
-  padding-left: 10rem;
+  padding-left: 15rem;
 }
 
 .input-display {
@@ -119,7 +119,7 @@ input::placeholder {
 
 .card {
   width: 375px;
-  margin-left: 10px;
+  margin-left: 25px;
   margin-top: 14rem;
   margin-bottom: 2rem;
 }
